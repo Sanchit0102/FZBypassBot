@@ -1,6 +1,6 @@
 from os import getenv
 from time import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from pyrogram import Client
 from pyrogram.enums import ParseMode
 from logging import getLogger, FileHandler, StreamHandler, INFO, ERROR, basicConfig
@@ -17,7 +17,7 @@ basicConfig(
 getLogger("pyrogram").setLevel(ERROR)
 LOGGER = getLogger(__name__)
 
-load_dotenv("config.env", override=True)
+# load_dotenv("config.env", override=True)
 BOT_START = time()
 
 
