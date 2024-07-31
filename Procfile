@@ -1,1 +1,1 @@
-Worker: python3 -m FZBypass
+Web: python3 -m FZBypass
