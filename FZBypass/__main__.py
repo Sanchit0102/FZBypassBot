@@ -62,7 +62,7 @@ async def restart():
 
 Thread(target=run_flask).start()
 start_scheduler()
-# Bypass.start()
+Bypass.start()
 LOGGER.info("FZ Bot Started!")
 Bypass.loop.run_until_complete(restart())
 idle()
